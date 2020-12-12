@@ -659,6 +659,12 @@ img {
   }
 }
 
+@media screen and (max-width:800px){
+  .header__nav{
+    display: none;
+  }
+}
+
 @media screen and (max-width:680px){
   .footer{
     height: max-content;
@@ -786,27 +792,5 @@ img {
 
 
 
-
-
-/*@media screen and (max-width: 850px) {
-  .wrapper{
-    max-width: 535px;
-  }
-  .grid__body{
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .flats__title{
-    text-align: center;
-    white-space: nowrap;
-  }
-  .district__body{
-    flex-direction: column;
-  }
-  .intro__title{
-    font-size: 30px;
-  }
-}*/
 
 /*media END---------------------------------------------------*/

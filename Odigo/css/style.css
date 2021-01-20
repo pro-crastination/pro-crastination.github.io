@@ -651,23 +651,27 @@ display: flex;
 
 /*video*/
 
+
 .video__section{
+  width: 100%;
+}
+
+.video__wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
   position: relative;
 }
 
-.video_item{
-  height: 609px;
+.video__item{
+  padding-top: 56.25%;
 }
 
-.video_item::after{
-  display: block;
-  content: '';
+.video__element{
   position: absolute;
   top: 0;
-  left: 0px;
+  left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(21, 24, 36, 0.4);
 }
 
 /*video END*/

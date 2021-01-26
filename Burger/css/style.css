@@ -156,17 +156,7 @@ html, body {
         transform: scale(0);
     }
 
-    /*hover*/
 
-    .header__burger:hover:before, .header__burger:hover:after{
-        background-color: #FF4747;
-    }
-
-    .header__burger span:hover{
-        background-color: #FF4747;
-    }
-
-    /*hover*/
 
     .header__menu{
         position: fixed;
